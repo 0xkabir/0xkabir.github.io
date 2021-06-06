@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #1a1a1a;
+}
+
+.lower-body{
+    padding-top: 65px;
+}
+
+/* navbar */
+.custom-nav {
+    color: #1a1a1a;
+    background-color: rgb(75, 135, 139);
+    width: 100vw;
+    left: 0;
+    position: fixed;
+}
+
+          
+.custom-toggler.navbar-toggler {
+    border: #1a1a1a;
+}
+          
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(26, 26, 26)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+nav ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a, nav ul li a {
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+
+nav a:hover, nav ul li a:hover{
+    color: antiquewhite;
+}
+
+/* body */
+.skillset {
+    background-color: aliceblue;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 2.5vw;
+}
+
+.skill-bg {
+    background-color: rgb(75, 135, 139);
+}
+
+.custom-bar {
+    width: 80%;
+}
+
+
+.carousel-caption{
+    background: rgba(0,0,0, 0.8);
+}
+
+.carousel-caption h5{
+    color:aliceblue;
+}
+
+.carousel-caption p{
+    width: 75%;
+    margin: auto;
+    color:aliceblue;
+}
+
+.card {
+    height: 28rem;
+}
+
+
+
+@media (min-width: 1024px) {
+
+    .bg {
+        background-color: rgb(75, 135, 139);
+        height: 35vh;
+    }
+
+    .skillset {
+        width: 30%;
+        height: 25.3vh;
+        margin-left: 5%;
+        margin-top: 5vh;
+        float: left;
+    }
+
+    .slider {
+        width: 60%;
+        height: 10vh;
+        margin-top: 5vh;
+        margin-right: 5%;
+        float: right;
+    }
+
+    .skills {
+        padding-top: 1vh;
+    }
+
+    h3 {
+        margin-top: 6vh;
+        font-size: 30px;
+        margin-left: 5vw;
+    }
+
+    .projects {
+        margin-top: 35vh;
+        margin-left: 17vw;
+    }
+
+    .card {
+        margin: 20px;
+        height: 28rem;
+        float: left;
+    }
+
+}
+
+@media (max-width: 858px) {
+   
+    .custom-nav {
+        background-color: rgb(75, 135, 139);
+    }
+
+    body{
+        background-color: aliceblue;
+    }
+
+}
+
+
+@media (min-width:1440px) {
+    .bg {
+        background-color: rgb(75, 135, 139);
+        height: 65vh;
+    }
+
+    .skillset {
+        width: 30%;
+        height: 67.5vh;
+        margin-left: 5%;
+        margin-top: 10vh;
+        float: left;
+    }
+
+    .slider {
+        width: 60%;
+        height: 10vh;
+        margin-top: 10vh;
+        margin-right: 5%;
+        float: right;
+    }
+
+    .skills {
+        padding-top: 12vh;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-left: 5vw;
+    }
+
+    .projects {
+        margin-top: 90vh;
+        margin-left: 7.5vw;
+    }
+
+    .card {
+        margin: 20px;
+        height: 28rem;
+        float: left;
+    }
+}

@@ -1,0 +1,234 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #1a1a1a;
+    background-color: aliceblue;
+}
+
+.lower-body{
+    padding-top: 65px;
+}
+
+/* navbar */
+.custom-nav {
+    color: #1a1a1a;
+    background-color: rgba(168, 156, 148, 0);
+    width: 100vw;
+    left: 0;
+    position: fixed;
+}
+
+          
+.custom-toggler.navbar-toggler {
+    border: #a89c94;
+}
+          
+.custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(26, 26, 26)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+nav ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a, nav ul li a {
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+
+nav a:hover, nav ul li a:hover{
+    color: darkolivegreen;
+}
+
+/* body */
+
+.form-w {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+
+.inner-form {
+    background-color: aliceblue;
+}
+
+.custom-button:hover{
+    color: antiquewhite;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 858px) {
+   
+    .custom-nav {
+        background-color: aliceblue;
+    }
+
+    .message {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 60px;
+    }
+
+    .form-container{
+        margin-top: 5vh;
+    }
+
+    .info-container {
+        margin-top: 5vh;
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 10px;
+        height: 35vh;
+        color: aliceblue;
+        background-color: #041e42;
+        text-align: left;
+    }
+
+    .info-container p {
+        margin-left: 5vw;
+    }
+
+    .info-container #top{
+        padding-top: 11vh;
+    }
+
+    .custom-button {
+    background-color: #041e42;
+    color: aliceblue;
+    margin-top: 1.5vh;
+    margin-left: 4.5%;
+    width: 40vw;
+    height: 10vh;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .bg {
+        background-color: #3aafa9;
+        height: 55vh;
+    }
+
+    .box-container {
+        margin-top: 40vh;
+    }
+
+    .form-container {
+    width: 55%;
+    margin-left: 5%;
+    height: 25vh;
+    position: absolute;
+    background-color:aliceblue;
+    }
+
+    .form-w{
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 2vh;
+        float: left;
+    }
+
+    .message {
+        width: 95%;
+        line-height: 90px;
+    }
+
+    .info-container {
+        width: 35%;
+        height: 25vh;
+        margin-right: 5%;
+        color: aliceblue;
+        background-color: #041e42;
+        float: right;
+    }
+
+    .info-container p {
+        margin-left: 2.5vw;
+    }
+
+    .info-container #top {
+        padding-top: 8vh;
+    }
+
+    .custom-button {
+    background-color: #041e42;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 0.75vh;
+    margin-left: 2.5%;
+    width: 15vw;
+    height: 3vh;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bg {
+        background-color: #3aafa9;
+        height: 60vh;
+    }
+
+    .box-container {
+        margin-top: 30vh;
+    }
+
+    .form-container {
+    width: 50%;
+    margin-left: 10%;
+    height: 45vh;
+    position: absolute;
+    background-color: aliceblue;
+    }
+
+    .form-w{
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 3.3vh;
+        float: left;
+    }
+
+    .message {
+        width: 95%;
+        line-height: 90px;
+        margin-top: 100vh;
+    }
+
+    .info-container {
+        width: 35%;
+        height: 45vh;
+        margin-right: 10%;
+        background-color: #041e42;
+        color: aliceblue;
+        float: right;
+    }
+
+    .info-container p {
+        margin-left: 10vw;
+    }
+
+    .info-container #top{
+        padding-top: 15vh;
+    }
+
+    .custom-button {
+    background-color: #041e42;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 1.5vh;
+    margin-left: 2.5%;
+    width: 9vw;
+    height: 6vh;
+    }
+}
